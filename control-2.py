@@ -67,7 +67,7 @@ def main(page: ft.Page):
 
     morning_button = ft.TextButton("Утренние", on_click=show_morning)
     evening_button = ft.TextButton("Вечерние", on_click=show_evening)
-    
+
 
     page.add(
         ft.Row([greeting_text], alignment=ft.MainAxisAlignment.CENTER),
@@ -77,3 +77,6 @@ def main(page: ft.Page):
     )
 
 ft.app(target=main)
+
+
+
